@@ -1,8 +1,8 @@
-name: Hello-world
+name: hello-world
 on: push
 jobs:
   my-job:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
-      - name: my-app
-        run: echo "hello my app"
+      - name: my-step
+        run: echo "Hello World!"
